@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a076fd74-46e2-4a1f-b2ea-a976b66b6060" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/object-equator-springboot-starter.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/haiyi/equator/compare/ReflectAsmCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/compare/ReflectAsmCompare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/haiyi/equator/compare/mode/impl/ExpressionEquatorMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/compare/mode/impl/ExpressionEquatorMode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/haiyi/equator/spring/EquatorAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/spring/EquatorAutoConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/haiyi/equator/springtest/provider/AppProviderSpringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/luhui/equator/springtest/provider/AppProviderSpringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
@@ -140,8 +137,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="456">
-                <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+              <first_editor relative-caret-position="178">
+                <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
               </first_editor>
               <second_editor />
             </state>
@@ -693,7 +690,7 @@
       <workItem from="1575368837676" duration="48821000" />
       <workItem from="1576198428985" duration="14220000" />
       <workItem from="1576802812713" duration="4597000" />
-      <workItem from="1577015611908" duration="2871000" />
+      <workItem from="1577015611908" duration="3114000" />
     </task>
     <task id="LOCAL-00001" summary="[Add]支持ql表达式。">
       <created>1575592634601</created>
@@ -759,11 +756,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114506000" />
+    <option name="totallyTimeSpent" value="114749000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
@@ -783,10 +779,10 @@
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.12410842" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.12410842" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.099891424" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25201073" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32382312" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25201073" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.329718" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="1" side_tool="true" />
@@ -849,7 +845,8 @@
     <MESSAGE value="[Add]支持ql表达式。" />
     <MESSAGE value="[Fixed]修复字段比较的bug。" />
     <MESSAGE value="[Fixed]修改bug。" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Fixed]修改bug。" />
+    <MESSAGE value="[Fixed]修改readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Fixed]修改readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1130,6 +1127,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
           <caret line="37" column="20" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1374,8 +1374,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="456">
-            <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+          <first_editor relative-caret-position="178">
+            <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
           </first_editor>
           <second_editor />
         </state>
