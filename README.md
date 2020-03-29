@@ -112,7 +112,7 @@ public interface StudentAnnotationSpringEquator {
      * @return
      */
     @EquatorMappings(value = {
-            @EquatorMapping(source = "sex",target = "sex",notEquatorSourceVal='source.toSexChinese()',notEquatorTargetVal='target.toSexChinese()')
+            @EquatorMapping(source = "sex",target = "sex",notEquatorSourceVal="source.toSexChinese()",notEquatorTargetVal="target.toSexChinese()")
     },byDefault = true)
     List<EquatorResult> defaultEquator(@EquatorParam("source") Student student1, @EquatorParam("target")StudentDto student2);
 }
