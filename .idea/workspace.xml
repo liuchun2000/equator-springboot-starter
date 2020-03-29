@@ -1,72 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a076fd74-46e2-4a1f-b2ea-a976b66b6060" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a076fd74-46e2-4a1f-b2ea-a976b66b6060" name="Default Changelist" comment="[Add]文档完善。">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/EquatorConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/EquatorConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/EquatorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/EquatorException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/EquatorMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/EquatorMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/EquatorProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/EquatorProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/EquatorProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/EquatorProxyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/EquatorRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/EquatorRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/EquatorResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/EquatorResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/accessor/ObjectAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/accessor/ObjectAccessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/accessor/ReflectionAsmObjectAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/accessor/ReflectionAsmObjectAccessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/annotations/EquatorDynamicProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/annotations/EquatorDynamicProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/annotations/EquatorMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/annotations/EquatorMapping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/annotations/EquatorMappings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/annotations/EquatorMappings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/annotations/EquatorParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/annotations/EquatorParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/annotations/EquatorProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/annotations/EquatorProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/annotations/IDynamicEquatorProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/annotations/IDynamicEquatorProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/annotations/IEquatorProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/annotations/IEquatorProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/compare/ObjectCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/compare/ObjectCompare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/compare/ReflectAsmCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/compare/ReflectAsmCompare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/compare/mode/EquatorMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/compare/mode/EquatorMode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/compare/mode/EquatorModeContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/compare/mode/EquatorModeContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/compare/mode/EquatorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/compare/mode/EquatorType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/compare/mode/ObjectCompareContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/compare/mode/ObjectCompareContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/compare/mode/impl/AddressEquatorMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/compare/mode/impl/AddressEquatorMode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/compare/mode/impl/DefaultEquatorMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/compare/mode/impl/DefaultEquatorMode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/compare/mode/impl/ExpressionEquatorMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/compare/mode/impl/ExpressionEquatorMode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/expression/ExpressionInvoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/expression/ExpressionInvoker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/expression/QLExpressContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/expression/QLExpressContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/expression/QLExpressionInvoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/expression/QLExpressionInvoker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/map/AnnotationProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/map/AnnotationProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/map/EquatorFieldMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/map/EquatorFieldMapping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/map/EquatorMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/map/EquatorMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/map/MapProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/map/MapProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/map/ProviderProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/map/ProviderProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/spring/Equator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/spring/Equator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/spring/EquatorAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/spring/EquatorAutoConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/spring/EquatorFactoryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/spring/EquatorFactoryBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/spring/EquatorMapperScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/spring/EquatorMapperScanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/spring/EquatorScannerConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/spring/EquatorScannerConfigurer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luhui/equator/utils/ReflectAsmUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luhui/equator/utils/ReflectAsmUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/luhui/equator/springtest/dynamic/AppDynamicSpringTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/luhui/equator/springtest/dynamic/DynamicEquator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/luhui/equator/springtest/dynamic/DynamicProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luhui/equator/annotations/EquatorMappings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luhui/equator/annotations/EquatorMappings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luhui/equator/map/AnnotationProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luhui/equator/map/AnnotationProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luhui/equator/spring/EquatorScannerConfigurer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luhui/equator/spring/EquatorScannerConfigurer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/object-equator-springboot-starter-1.0-SNAPSHOT-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/object-equator-springboot-starter-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/object-equator-springboot-starter-1.0.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/object-equator-springboot-starter-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/object-equator-springboot-starter-1.0.1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/object-equator-springboot-starter-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/object-equator-springboot-starter-1.0.2-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/object-equator-springboot-starter-1.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/object-equator-springboot-starter-1.0.3-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/object-equator-springboot-starter-1.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/luhui/equator/springtest/dynamic/AppDynamicSpringTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/luhui/equator/springtest/dynamic/DynamicEquator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/luhui/equator/springtest/dynamic/DynamicProvider.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -176,8 +112,8 @@
       <file leaf-file-name="IDynamicEquatorProvider.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/luhui/equator/annotations/IDynamicEquatorProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="21" column="57" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="57" />
+            <state relative-caret-position="460">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -690,7 +626,7 @@
       <workItem from="1576802812713" duration="4597000" />
       <workItem from="1577015611908" duration="4561000" />
       <workItem from="1578830624041" duration="39000" />
-      <workItem from="1585463374598" duration="3046000" />
+      <workItem from="1585463374598" duration="3311000" />
     </task>
     <task id="LOCAL-00001" summary="[Add]支持ql表达式。">
       <created>1575592634601</created>
@@ -720,7 +656,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576572868767</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[Add]文档完善。">
+      <created>1585466470979</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585466470979</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -756,7 +699,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119281000" />
+    <option name="totallyTimeSpent" value="119546000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -847,7 +790,8 @@
     <MESSAGE value="[Fixed]修复字段比较的bug。" />
     <MESSAGE value="[Fixed]修改bug。" />
     <MESSAGE value="[Fixed]修改readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Fixed]修改readme" />
+    <MESSAGE value="[Add]文档完善。" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Add]文档完善。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1289,8 +1233,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/luhui/equator/annotations/IDynamicEquatorProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="21" column="57" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="57" />
+        <state relative-caret-position="460">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
