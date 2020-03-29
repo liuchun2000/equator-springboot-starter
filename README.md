@@ -144,6 +144,12 @@ public interface StudentAnnotationSpringEquator {
     },byDefault = false)
     List<EquatorResult> defaultEquator(@EquatorParam("stu1") Student student1, StudentDto student2);
     
+    /**
+     * 比较两个对象,表达式中用到了beanTest，他是一个springBean
+     * @param student1
+     * @param student2
+     * @return
+     */
     @EquatorMappings(value = {
             @EquatorMapping(source = "id",
                     target = "id",
@@ -153,6 +159,15 @@ public interface StudentAnnotationSpringEquator {
     List<EquatorResult> annotationEquator5(@EquatorParam("student1") Student student1,
                                            @EquatorParam("student2") Student student2,
                                            @EquatorParam("test") boolean test);
+}
+
+@Component("beanTest")
+public class BeanTest {
+
+    public boolean test1(Student stu1,Student stu2,boolean test){
+        System.out.println("test1....");
+        return test;
+    }
 }
 ```
 
