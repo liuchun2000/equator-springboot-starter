@@ -28,16 +28,14 @@ import static org.springframework.util.Assert.notNull;
  * @author hlu
  * @version 1.0
  */
-public class EquatorScannerConfigurer implements BeanDefinitionRegistryPostProcessor, InitializingBean,
+public class EquatorScannerConfigurer implements BeanDefinitionRegistryPostProcessor,
         ApplicationContextAware, ResourceLoaderAware, BeanFactoryAware {
 
     private ResourceLoader resourceLoader;
     private BeanFactory beanFactory;
     private EquatorConfiguration equatorConfiguration = new EquatorConfiguration();
 
-    @Override
-    public void afterPropertiesSet() throws Exception {
-    }
+
 
     @Override
     public void postProcessBeanDefinitionRegistry(BeanDefinitionRegistry registry) throws BeansException {

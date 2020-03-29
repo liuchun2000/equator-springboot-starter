@@ -39,7 +39,9 @@ public class AnnotationProcessor extends MapProcessor {
 
         final Set<EquatorFieldMapping> fieldMappings = Arrays.stream(mappings)
                 .map(mapping ->
-                        new EquatorFieldMapping(mapping.source(), mapping.target(), mapping.equalsType(), mapping.expression(), mapping.fieldName()))
+                        new EquatorFieldMapping(mapping.source(), mapping.target(),
+                                mapping.equalsType(), mapping.expression(), mapping.fieldName(),
+                                mapping.notEquatorSourceVal(),mapping.notEquatorTargetVal()))
                 .collect(Collectors.toSet());
         final Class<?>[] parameterTypes = method.getParameterTypes();
         EquatorMap equatorMap = new EquatorMap(parameterTypes[0], parameterTypes[1]);
