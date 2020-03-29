@@ -261,4 +261,4 @@ public class MyEquatorProvider1 implements IDynamicEquatorProvider {
 
 总结：
 
-相信使用过mybatis或mapstruct的朋友们会很快上手这个项目，具体用法远不止这么多，可以参考项目的单元测试或源码，希望能给大家有所帮助，目前不支持级联对象的对象，如果有有志之士也欢迎一起完善。
+相信使用过mybatis或mapstruct的朋友们会很快上手这个项目，具体用法远不止这么多，可以参考项目的单元测试或源码，希望能给大家有所帮助，目前不支持级联对象的属性比较，如果有有志之士也欢迎一起完善。
