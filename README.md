@@ -34,11 +34,11 @@ EquatorResult属性说明：
 
 这里演示几个示例：
 
-无论以哪种方式，我们都需要编写接口，并在接口上打上@Equator注解。
+无论以哪种方式，我们都需要编写接口，并在接口上打上@Equator注解。<br/><br/>
 
 
 
-示例一，默认比较：
+### 示例一：默认比较：
 
 ```java
 @Equator
@@ -53,11 +53,11 @@ public interface StudentAnnotationSpringEquator {
     List<EquatorResult> defaultEquator(Student student1, Student student2);
 }
 ```
-这例子我们在接口中定义了一个defaultEquator方法，将进行两个对象进行比较。没有加任何注解修饰，则会走默认的比较逻辑。默认情况下：会对入参1和入参2所有相同的字段进行字段比较。
+这例子我们在接口中定义了一个defaultEquator方法，将进行两个对象进行比较。没有加任何注解修饰，则会走默认的比较逻辑。默认情况下：会对入参1和入参2所有相同的字段进行字段比较。<br/><br/>
 
 
 
-示例二：使用注解方式显式指定比较字段名不相同的字段：
+### 示例二：使用注解方式显式指定比较字段名不相同的字段：
 
 ```java
 @Equator
@@ -76,11 +76,11 @@ public interface StudentAnnotationSpringEquator {
 }
 ```
 
-入参的两个对象可以是不同类的实例，这里演示了比较不同的属性名的比较，注意我们标记了byDefault=true（默认值也是true），他的意思是，如果这两个类的相同的属性名，也会进行比较，如果指定成了false则仅对比手动指定的属性。
+入参的两个对象可以是不同类的实例，这里演示了比较不同的属性名的比较，注意我们标记了byDefault=true（默认值也是true），他的意思是，如果这两个类的相同的属性名，也会进行比较，如果指定成了false则仅对比手动指定的属性。<br/><br/>
 
 
 
-示例三：使用注解方式排除比较某个字段：
+### 示例三：使用注解方式排除比较某个字段：
 
 ```java
 @Equator
@@ -97,9 +97,9 @@ public interface StudentAnnotationSpringEquator {
 }
 ```
 
+<br/><br/>
 
-
-示例四：使用注解方式指定字段比较不相同的时候目标对象值返回的装配规则：
+### 示例四：使用注解方式指定字段比较不相同的时候目标对象值返回的装配规则：
 
 ```java	
 @Equator
@@ -120,11 +120,11 @@ public interface StudentAnnotationSpringEquator {
 
 
 
-这里手动指定了两个参数的名称，指定后可以直接在notEquatorSourceVal或notEquatorTargetVal中使用，当然，你也可以传个第三个参数过来，指定下参数，也可以在表达式中使用。这个表达式中，也可以通过bean的名称直接访问spring bean对象。
+这里手动指定了两个参数的名称，指定后可以直接在notEquatorSourceVal或notEquatorTargetVal中使用，当然，你也可以传个第三个参数过来，指定下参数，也可以在表达式中使用。这个表达式中，也可以通过bean的名称直接访问spring bean对象。<br/><br/>
 
 
 
-示例五：使用自定义表达式比较字段：
+### 示例五：使用自定义表达式比较字段：
 
 ```java
 @Equator
@@ -173,13 +173,13 @@ public class BeanTest {
 
 
 
-这里演示了两个通过表达式比较的示例，这个表达式中也可以使用第三个参数，也可以通过beanName访问springbean。
+这里演示了两个通过表达式比较的示例，这个表达式中也可以使用第三个参数，也可以通过beanName访问springbean。<br/><br/>
 
 
 
 以上所有方式配置都是注解方式比较的，其实我们还支持通过代码去构建。
 
-示例六、使用代码去构建配置:
+### 示例六：使用代码去构建配置:
 
 ```java
 @Equator
@@ -214,11 +214,11 @@ public class MyEquatorProvider1 implements IEquatorProvider {
 
 ```
 
-注意的是：这种方式构建仅在启动的时候构建一次，后续不会重新构建！！如果是读取数据库的配置，而数据库经常会修改，就需要重启，那这种方式就不适用了，可参考示例七。
+注意的是：这种方式构建仅在启动的时候构建一次，后续不会重新构建！！如果是读取数据库的配置，而数据库经常会修改，就需要重启，那这种方式就不适用了，可参考示例七。<br/><br/>
 
 
 
-示例七：使用代码去构建，且实现生效：
+### 示例七：使用代码去构建，且实现生效：
 
 ```java
 @Equator
