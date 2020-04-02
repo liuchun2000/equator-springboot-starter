@@ -76,7 +76,7 @@ public class ReflectAsmCompare implements ObjectCompare {
             final String sourceFieldName = equatorFieldMapping.getSource();
             final Object sourceVal = objectAccessor.getFieldValue(source, sourceFieldName);
 
-            final String targetFieldName = equatorFieldMapping.getSource();
+            final String targetFieldName = equatorFieldMapping.getTarget();
             final Object targetVal = objectAccessor.getFieldValue(target, targetFieldName);
 
             final String notEquatorSourceVal = equatorFieldMapping.getNotEquatorSourceVal();
